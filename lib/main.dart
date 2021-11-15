@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class Dual_Home extends StatefulWidget {
   @override
   _Dual_HomeState createState() => _Dual_HomeState();
@@ -45,9 +44,9 @@ class _Dual_HomeState extends State<Dual_Home> {
                 padding: EdgeInsets.symmetric(horizontal: 30),
                 children: [
                   SizedBox(height: 50),
-                  gameTile("game1",Game1(),context),
+                  gameTile("TOUCH FASTER!",Game1(),context),
                   SizedBox(height: 20),
-                  gameTile("game2",Game2(),context),
+                  gameTile("REACT FASTER!",Game2(),context),
                 ],
               ),
             ),
